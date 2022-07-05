@@ -101,4 +101,50 @@ static void Main(string[] args)
 }
 ```
 
+## Session du 05/07/2022 : 15h45 - 17h15 | Pattern de structure / structuration
 
+Les patterns de structuration permettent de faciliter l'idépendance de l'interface d'un objet et de son implémentation.
+
+En fournissant les interfaces ce pattern permet d'encapsuler la compositions des objets.
+
+Ceci joue sur l'augmentation du niveau d'abstraction d'un système donné à la manière des patterns de création encapsulant la création d'objets.
+
+### Explication : La différence entre l'héritage et la composition
+
+La différence se situe sur le role de chaqu'une par rapport aux relation : 
+
+- Une composition comporte une relation entre les objets
+- L'héritage est lui meme une relation entre les classes 
+
+On note aussi une différence dans l'utilisation, la composition pour l'injection de dépendance et l'héritage dans le polymorphisme.
+
+Deux exemples afin d'ilustrer mes propos : 
+
+### Composition : 
+
+```csharp
+class Identifier
+{
+    
+}
+
+class Identifier2
+{
+    Identifier id1 = new Identifier();
+    id1.Member();
+}
+```
+
+### Héritage : 
+
+```csharp
+public class A
+{
+    protected int _value = 69;
+}
+
+public class C : A
+{
+   this._value = 69;
+}
+```
