@@ -1,5 +1,10 @@
 # ESGI - Design Pattern en C#
 
+Les patrons de conception (design patterns) sont des
+solutions classiques à des problèmes récurrents de la
+conception de logiciels. 
+Pour un patron, un schéma éxiste, restant personnalisable pour répondre à un problème récurrent dans votre code.
+
 ## Session du 04/07/2022 : 8h – 9h30 | Abstract Factory
 Installation de .NET 
 Création d’un repos GIT
@@ -46,6 +51,54 @@ Présentation de la `Factory Méthode : Generic`
 
 ## Session du 05/07/2022 : 14h00 - 15h30 | Singleton
 
+Le singleton est un patron de conception de création qui garantit et exige que l’instance d’une classe n’existe que en un seul exemplaire unique, en donnat un acces à cette instance pour l'intégralité de l'application
 
+Un pattern Abstract va etre susceptible d'utiliser ce type d'instance unique.
+
+### Un exemple du singleton 
+
+![Schéma UML 8](img/UML_8.PNG)
+
+### Dans le cas de notre application 
+
+On va utiliser la classe `liasse`.
+
+![Schéma UML 7](img/UML_7.PNG)
+
+### Exercice : Création d'une instance globale du vendeur
+
+Exemple de mon singleton
+
+```csharp
+public class Vendeur
+{
+    private static Vendeur _instance = null;
+    public decimal primes { get; set; }
+
+    private Vendeur() {
+    }
+
+    public static Vendeur Instance()
+    {
+        if (_instance == null)
+            _instance = new Vendeur();
+        return _instance;
+    }
+}
+```csharp
+
+```csharp
+static void Main(string[] args)
+{
+    Vendeur vendeur1 = Vendeur.Instance();
+    Vendeur vendeur2 = Vendeur.Instance();
+
+    vendeur1.primes = 455;
+    if(vendeur2.primes == vendeur1.primes)
+        Console.WriteLine("Singleton ok");
+    else
+        Console.WriteLine("Singleton ko");
+}
+```csharp
 
 

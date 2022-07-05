@@ -1,0 +1,16 @@
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\cours\05_07_2022_1pt\bin\Debug\net5.0\05_07_2022_1pt.exe
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\cours\05_07_2022_1pt\bin\Debug\net5.0\05_07_2022_1pt.deps.json
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\cours\05_07_2022_1pt\bin\Debug\net5.0\05_07_2022_1pt.runtimeconfig.json
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\cours\05_07_2022_1pt\bin\Debug\net5.0\05_07_2022_1pt.runtimeconfig.dev.json
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\cours\05_07_2022_1pt\bin\Debug\net5.0\05_07_2022_1pt.dll
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\cours\05_07_2022_1pt\bin\Debug\net5.0\ref\05_07_2022_1pt.dll
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\cours\05_07_2022_1pt\bin\Debug\net5.0\05_07_2022_1pt.pdb
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\cours\05_07_2022_1pt\obj\Debug\net5.0\05_07_2022_1pt.csproj.AssemblyReference.cache
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\cours\05_07_2022_1pt\obj\Debug\net5.0\05_07_2022_1pt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\cours\05_07_2022_1pt\obj\Debug\net5.0\05_07_2022_1pt.AssemblyInfoInputs.cache
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\cours\05_07_2022_1pt\obj\Debug\net5.0\05_07_2022_1pt.AssemblyInfo.cs
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\cours\05_07_2022_1pt\obj\Debug\net5.0\05_07_2022_1pt.csproj.CoreCompileInputs.cache
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\cours\05_07_2022_1pt\obj\Debug\net5.0\05_07_2022_1pt.dll
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\cours\05_07_2022_1pt\obj\Debug\net5.0\ref\05_07_2022_1pt.dll
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\cours\05_07_2022_1pt\obj\Debug\net5.0\05_07_2022_1pt.pdb
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\cours\05_07_2022_1pt\obj\Debug\net5.0\05_07_2022_1pt.genruntimeconfig.cache
