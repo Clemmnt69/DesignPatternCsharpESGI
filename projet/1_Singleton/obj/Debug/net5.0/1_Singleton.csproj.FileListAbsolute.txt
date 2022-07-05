@@ -1,0 +1,16 @@
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\1_Singleton\bin\Debug\net5.0\1_Singleton.exe
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\1_Singleton\bin\Debug\net5.0\1_Singleton.deps.json
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\1_Singleton\bin\Debug\net5.0\1_Singleton.runtimeconfig.json
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\1_Singleton\bin\Debug\net5.0\1_Singleton.runtimeconfig.dev.json
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\1_Singleton\bin\Debug\net5.0\1_Singleton.dll
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\1_Singleton\bin\Debug\net5.0\ref\1_Singleton.dll
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\1_Singleton\bin\Debug\net5.0\1_Singleton.pdb
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\1_Singleton\obj\Debug\net5.0\1_Singleton.csproj.AssemblyReference.cache
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\1_Singleton\obj\Debug\net5.0\1_Singleton.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\1_Singleton\obj\Debug\net5.0\1_Singleton.AssemblyInfoInputs.cache
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\1_Singleton\obj\Debug\net5.0\1_Singleton.AssemblyInfo.cs
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\1_Singleton\obj\Debug\net5.0\1_Singleton.csproj.CoreCompileInputs.cache
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\1_Singleton\obj\Debug\net5.0\1_Singleton.dll
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\1_Singleton\obj\Debug\net5.0\ref\1_Singleton.dll
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\1_Singleton\obj\Debug\net5.0\1_Singleton.pdb
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\1_Singleton\obj\Debug\net5.0\1_Singleton.genruntimeconfig.cache

@@ -101,7 +101,9 @@ static void Main(string[] args)
 }
 ```
 
-## Session du 05/07/2022 : 15h45 - 17h15 | Pattern de structure / structuration
+## Session du 05/07/2022 : 15h45 - 17h15 | Pattern de structure / structuration / Pattern adapter
+
+### Pattern de structure / structuration
 
 Les patterns de structuration permettent de faciliter l'idépendance de l'interface d'un objet et de son implémentation.
 
@@ -148,3 +150,12 @@ public class C : A
    this._value = 69;
 }
 ```
+
+### Pattern adapter
+
+Le but de ce pattern est de convertir l'interface d'une classe donnéee en une interface attendue par des clients afin qu'ils puissent travailler ensemble 
+En résumé, il permet de donner à une classe existante une nouvelle interface pour répondre aux besoins d'un client.
+
+![Schéma UML 9](img/UML_9.PNG)
+
+## Session du 05/07/2022 : 17h30 - 19h00 | Autonomie réserver au projet
