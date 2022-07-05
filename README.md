@@ -85,7 +85,7 @@ public class Vendeur
         return _instance;
     }
 }
-```csharp
+```
 
 ```csharp
 static void Main(string[] args)
@@ -99,6 +99,6 @@ static void Main(string[] args)
     else
         Console.WriteLine("Singleton ko");
 }
-```csharp
+```
 
 
