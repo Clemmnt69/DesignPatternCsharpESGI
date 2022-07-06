@@ -6,8 +6,12 @@ conception de logiciels.
 Pour un patron, un schéma éxiste, restant personnalisable pour répondre à un problème récurrent dans votre code.
 
 ## Session du 04/07/2022 : 8h – 9h30 | Abstract Factory
+
 Installation de .NET 
 Création d’un repos GIT
+
+La factory est un pattern de création.
+
 Présentation d’un schéma classique de présentation des designs patterns
 Le design pattern `Factory abstract` ( Usine abstraite )
 
@@ -51,6 +55,7 @@ Présentation de la `Factory Méthode : Generic`
 
 ## Session du 05/07/2022 : 14h00 - 15h30 | Singleton
 
+Pattern de création
 Le singleton est un patron de conception de création qui garantit et exige que l’instance d’une classe n’existe que en un seul exemplaire unique, en donnat un acces à cette instance pour l'intégralité de l'application
 
 Un pattern Abstract va etre susceptible d'utiliser ce type d'instance unique.
@@ -153,9 +158,87 @@ public class C : A
 
 ### Pattern adapter
 
+Pattern structurel
+
 Le but de ce pattern est de convertir l'interface d'une classe donnéee en une interface attendue par des clients afin qu'ils puissent travailler ensemble 
 En résumé, il permet de donner à une classe existante une nouvelle interface pour répondre aux besoins d'un client.
 
 ![Schéma UML 9](img/UML_9.PNG)
 
 ## Session du 05/07/2022 : 17h30 - 19h00 | Autonomie réserver au projet
+
+Début de projet pour le Singleton
+
+## Session du 06/07/2022 : 14h00 - 15h30 | Pattern bridge / Composite / Decorator
+
+Pattern structurel
+Le but de ce pattern est de séparer le comportement de l'implémentation de l'interface et de l'implémentation de l'objet.
+On s'intéresse au demande d'immatriculation des véhicules.
+Le formulaire de demande d'immatriculation possède deux implémentations différentes.
+
+Classe abstraite mère: FormulaireImmat
+
+Classe fille :
+
+FormulaireImmatHTML
+FormulaireImmatAPP
+
+Au départ le système a été conçu pour la France uniquement.
+Ensuite on a du créé en sous-classe FormulaireImmatCH elle aussi abstraite pour avoir également deux sous-classes concrètes (qui sont FormulaireImmatHTML et FormulaireImmatAPP dédiées à la Suisse)
+
+ABSTRACTION : `abstract class` IMPLEMENTATION : `interface`
+
+![Schéma UML 10](img/UML_10.PNG)
+
+### Exemple concret
+
+```csharp
+public class Utilisateur
+{
+  static void Main(string[] args)
+  {
+    FormImmatriculationLuxembourg formulaire1 = new
+      FormImmatriculationLuxembourg(new FormHtmlImpl());
+    formulaire1.affiche();
+    if (formulaire1.gereSaisie())
+      formulaire1.genereDocument();
+    Console.WriteLine();
+    FormImmatriculationFrance formulaire2 = new
+      FormImmatriculationFrance(new FormAppletImpl());
+    formulaire2.affiche();
+    if (formulaire2.gereSaisie())
+      formulaire2.genereDocument();
+  }
+}
+```
+
+```csharp
+public class FormImmatriculationLuxembourg :
+  FormulaireImmatriculation
+{
+  public FormImmatriculationLuxembourg(FormulaireImpl
+    implantation) : base(implantation){}
+
+  protected override bool controleSaisie(string plaque)
+  {
+    return plaque.Length == 5;
+  }
+}
+```
+
+## Intérogation sur le contexte du design pattern Composite 
+
+Ce pattern offre un cadre de conception d'objet dont on ne connait pas la profondeur.
+On peut utiliser un arbre en tant qu'analogie
+
+Deux exemples : 
+
+![Schéma UML 11](img/UML_11.PNG)
+
+![Schéma UML 12](img/UML_12.PNG)
+
+## Pattern Decorator
+
+Ce pattern permet d'ajouter dynamiquement des foncionnalitées supplémentaires à un objet sans modifier l'interface de l'objet ("les clients de l'objet ne sont pas au courant de la modification")
+
+Il s'agit d'une alternative à la création d'une sous-classe qui permettrait d'enrichir l'objet.

@@ -2,22 +2,27 @@ using System.Collections.Generic;
 
 public class Champs
 {
-    private string codeChamp {get; set; }
-    private string type { get; set; }
-    private string className { get; set; }
-    private string style { get; set; }
-    private string placeholder { get; set; }
-    private string valeur { get; set; }
+    public string codeChamp {get; set; }
+    public string codeZone {get; set; }
+    public string type { get; set; }
+    public string className { get; set; }
+    public string style { get; set; }
+    public string placeholder { get; set; }
+    public string valeur { get; set; }
 
-    public Champs(string codeChamp, string type, string className, string style, string placeholder, string valeur) 
+    public Champs()
+    {
+        
+    }
+
+    public Champs(string codeChamp, string codeZone, string type, string className, string style, string placeholder, string valeur) 
     {
         this.codeChamp = codeChamp;
+        this.codeZone = codeZone;
         this.type = type;
         this.className = className;
         this.style = style;
         this.placeholder = placeholder;
         this.valeur = valeur;
     }
-
-    public void ajouterChampsAUneZone()
 }

@@ -3,7 +3,9 @@ using System.Collections.Generic;
 public class Appli
 {
     private static Appli _instance = null;
-    public decimal primes { get; set; }
+    public List<Zones> zones { get; set; }
+    public List<Champs> champs { get; set; }
+    public Formulaire formulaire { get; set; }
 
     private Appli() {
         
