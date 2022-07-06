@@ -1,0 +1,16 @@
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\2_Adapter\bin\Debug\net5.0\2_Adapter.exe
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\2_Adapter\bin\Debug\net5.0\2_Adapter.deps.json
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\2_Adapter\bin\Debug\net5.0\2_Adapter.runtimeconfig.json
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\2_Adapter\bin\Debug\net5.0\2_Adapter.runtimeconfig.dev.json
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\2_Adapter\bin\Debug\net5.0\2_Adapter.dll
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\2_Adapter\bin\Debug\net5.0\ref\2_Adapter.dll
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\2_Adapter\bin\Debug\net5.0\2_Adapter.pdb
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\2_Adapter\obj\Debug\net5.0\2_Adapter.csproj.AssemblyReference.cache
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\2_Adapter\obj\Debug\net5.0\2_Adapter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\2_Adapter\obj\Debug\net5.0\2_Adapter.AssemblyInfoInputs.cache
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\2_Adapter\obj\Debug\net5.0\2_Adapter.AssemblyInfo.cs
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\2_Adapter\obj\Debug\net5.0\2_Adapter.csproj.CoreCompileInputs.cache
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\2_Adapter\obj\Debug\net5.0\2_Adapter.dll
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\2_Adapter\obj\Debug\net5.0\ref\2_Adapter.dll
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\2_Adapter\obj\Debug\net5.0\2_Adapter.pdb
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\2_Adapter\obj\Debug\net5.0\2_Adapter.genruntimeconfig.cache

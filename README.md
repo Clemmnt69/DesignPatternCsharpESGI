@@ -226,7 +226,7 @@ public class FormImmatriculationLuxembourg :
 }
 ```
 
-## Intérogation sur le contexte du design pattern Composite 
+### Intérogation sur le contexte du design pattern Composite 
 
 Ce pattern offre un cadre de conception d'objet dont on ne connait pas la profondeur.
 On peut utiliser un arbre en tant qu'analogie
@@ -237,8 +237,48 @@ Deux exemples :
 
 ![Schéma UML 12](img/UML_12.PNG)
 
-## Pattern Decorator
+### Pattern Decorator
 
 Ce pattern permet d'ajouter dynamiquement des foncionnalitées supplémentaires à un objet sans modifier l'interface de l'objet ("les clients de l'objet ne sont pas au courant de la modification")
 
 Il s'agit d'une alternative à la création d'une sous-classe qui permettrait d'enrichir l'objet.
+
+![Schéma UML 13](img/UML_13.PNG)
+
+## Session du 06/07/2022 : 15h45 - 17h15 | Pattern de comportement / Chain of responsability / Decorator
+
+Les pattern de comportement permettent de distribuer des traitements/ des algorithmes entre les objets.
+Ils organisent les interactions en renseignant le "flux de controle" et de traitement au sein d'un système d'objets.
+La distribution se fait soit par héritage soit par "délégation".
+
+### Pattern Chain of Responsability
+
+Le but est de construire une chaine d'objets de manière à ce que si un objet de la chaine ne peut répondre à une enquête, il puisse la passer à un "successeur" et ainsi de suite jusqu'à ce que l'un des objets puissent y répondre.
+
+![Schéma UML 14](img/UML_14.PNG)
+
+![Schéma UML 15](img/UML_15.PNG)
+
+![Schéma UML 16](img/UML_16.PNG)
+
+### Pattern Command
+
+C'est un patron de conception comportemental qui prend une action à effectuer et la transforme en objet avec l'intégralité des détails de cette action. Ce qui permet de paramétrer des méthodes avec différentes actions, les planifier ect..
+
+![Schéma UML 17](img/UML_17.PNG)
+
+![Schéma UML 18](img/UML_18.PNG)
+
+### Pattern Iterator
+
+C'est est un patron de conception comportemental qui permet de parcourir les éléments d’une collection sans révéler sa représentation.
+
+![Schéma UML 19](img/UML_19.PNG)
+
+### Médiator
+
+Médiateur est un patron de conception comportemental qui diminue les dépendances problématique entre les objets. Il restreint les communications et permet de gérer la "circulation".
+
+
+
+
