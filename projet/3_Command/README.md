@@ -33,10 +33,15 @@ Mon formulaire va comporter 2 zones, une de saisie et une de validation avec un 
 
 ### Rendu de l'application : 
 
-Nom du formulaire : Envoyer Mail
-Nombre de zone : 2
-Nombre de champs : 9
+Nom du formulaire : `Envoyer Mail`
+
+Nombre de zone : `2`
+
+Nombre de champs : `9`
+
 Format HTML du formulaire : 
+
+```html
 <h1 style='text-align : center;'> Envoyer Mail </h1>
 <div id='Zone_1'>
     <label id='Champs_1_Zone_1'>Nom</label>
@@ -51,6 +56,4 @@ Format HTML du formulaire :
 <div id='Zone_2'>
     <button id='Champs_1_Zone_2' type='button'>Valider </button>
 </div>
-
-
-
+```
