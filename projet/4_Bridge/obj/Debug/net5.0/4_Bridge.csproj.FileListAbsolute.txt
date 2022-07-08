@@ -1,0 +1,16 @@
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\4_Bridge\bin\Debug\net5.0\4_Bridge.exe
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\4_Bridge\bin\Debug\net5.0\4_Bridge.deps.json
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\4_Bridge\bin\Debug\net5.0\4_Bridge.runtimeconfig.json
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\4_Bridge\bin\Debug\net5.0\4_Bridge.runtimeconfig.dev.json
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\4_Bridge\bin\Debug\net5.0\4_Bridge.dll
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\4_Bridge\bin\Debug\net5.0\ref\4_Bridge.dll
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\4_Bridge\bin\Debug\net5.0\4_Bridge.pdb
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\4_Bridge\obj\Debug\net5.0\4_Bridge.csproj.AssemblyReference.cache
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\4_Bridge\obj\Debug\net5.0\4_Bridge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\4_Bridge\obj\Debug\net5.0\4_Bridge.AssemblyInfoInputs.cache
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\4_Bridge\obj\Debug\net5.0\4_Bridge.AssemblyInfo.cs
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\4_Bridge\obj\Debug\net5.0\4_Bridge.csproj.CoreCompileInputs.cache
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\4_Bridge\obj\Debug\net5.0\4_Bridge.dll
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\4_Bridge\obj\Debug\net5.0\ref\4_Bridge.dll
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\4_Bridge\obj\Debug\net5.0\4_Bridge.pdb
+C:\Users\cleme\Desktop\DesignPatternCsharpESGI\projet\4_Bridge\obj\Debug\net5.0\4_Bridge.genruntimeconfig.cache

@@ -14,7 +14,7 @@ namespace _2_Factory
 
         public Formulaire(string libelle)
         {
-            this.codeFormulaire = "Formulaire_" + libelle;;
+            this.codeFormulaire = "Formulaire_" + libelle;
             this.libelle = libelle;
         }
 

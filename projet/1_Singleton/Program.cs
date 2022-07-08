@@ -145,9 +145,9 @@ namespace _1_Singleton
                                 formulaire.html += $"type='{unChamps.type}'";
 
                             if(!String.IsNullOrEmpty(unChamps.valeur))
-                                formulaire.html += $"value='{unChamps.valeur}'>";; 
+                                formulaire.html += $"value='{unChamps.valeur}'";; 
 
-                            formulaire.html += "</input>";
+                            formulaire.html += "></input>";
                             break; 
 
                         case "date" : 
@@ -163,9 +163,9 @@ namespace _1_Singleton
                                 formulaire.html += "type='date'";
 
                             if(!String.IsNullOrEmpty(unChamps.valeur))
-                                formulaire.html += $"value='{unChamps.valeur}'>";
+                                formulaire.html += $"value='{unChamps.valeur}'";
 
-                            formulaire.html += "</input>";
+                            formulaire.html += "></input>";
                             break;
 
                         case "checkbox" : 
@@ -178,9 +178,9 @@ namespace _1_Singleton
                                 formulaire.html += $"style='{unChamps.style}'";
                             
                             if(!String.IsNullOrEmpty(unChamps.type))
-                                formulaire.html += "type='checkbox'>";
+                                formulaire.html += "type='checkbox'";
 
-                            formulaire.html += "</input>";
+                            formulaire.html += "></input>";
                             break;
 
                         case "button" : 
@@ -198,7 +198,7 @@ namespace _1_Singleton
                             if(!String.IsNullOrEmpty(unChamps.valeur))
                                 formulaire.html += $">{unChamps.valeur}"; 
 
-                            formulaire.html += "</button>";
+                            formulaire.html += "></button>";
                             break;
                         
                         default:

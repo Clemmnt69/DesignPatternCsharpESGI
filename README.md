@@ -1,14 +1,12 @@
 # ESGI - Design Pattern en C#
 
-Les patrons de conception (design patterns) sont des
-solutions classiques à des problèmes récurrents de la
-conception de logiciels. 
-Pour un patron, un schéma éxiste, restant personnalisable pour répondre à un problème récurrent dans votre code.
+Les patrons de conception (design patterns) sont des solutions classiques à des problèmes récurrents de la conception de logiciels. 
+Pour un patron de conception, un schéma existe, restant personnalisable pour répondre à un problème récurrent dans votre code.
 
 ## Session du 04/07/2022 : 8h – 9h30 | Abstract Factory
 
-Installation de .NET 
-Création d’un repos GIT
+ - Installation de .NET 
+ - Création d’un repos GIT
 
 La factory est un pattern de création.
 
@@ -278,6 +276,10 @@ C'est est un patron de conception comportemental qui permet de parcourir les él
 ### Médiator
 
 Médiateur est un patron de conception comportemental qui diminue les dépendances problématique entre les objets. Il restreint les communications et permet de gérer la "circulation".
+
+## Session du 08/07/2022 : 8h - 13h
+
+Projet perso + QCM
 
 
 
